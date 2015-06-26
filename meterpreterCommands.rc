@@ -1,0 +1,3 @@
+run post/windows/gather/enum_logged_on_users
+screenshot
+ipconfig
