@@ -1,1 +1,1 @@
-# MetaHandler
+Metasploit Handler with autorun commands
